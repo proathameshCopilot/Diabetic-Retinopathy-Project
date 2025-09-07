@@ -38,21 +38,21 @@ We are following a step-by-step approach, and this README documents the progress
 
 ---
 
-## 📂 Project Structure (till now)
+## Project Structure
 
 Diabetic-Retinopathy/
 │
-├─ data/
+├─ data/ # dataset files
 │ └─ raw/
-│ └─ Diagnosis of Diabetic Retinopathy/ # dataset folders
+│ └─ Diagnosis of Diabetic Retinopathy/
 │
-├─ notebooks/
-│ └─ 01_EDA.ipynb # dataset exploration + preprocessing demo
+├─ notebooks/ # Jupyter notebooks
+│ └─ 01_EDA.ipynb
 │
-├─ src/
-│ ├─ preprocess.py # preprocessing utilities (future)
-│ └─ model.py # baseline model (future)
+├─ src/ # source code
+│ ├─ preprocess.py
+│ └─ model.py
 │
-├─ models/ # will store trained model weights
+├─ models/ # trained model weights
 ├─ requirements.txt # dependencies
 └─ README.md # project documentation
